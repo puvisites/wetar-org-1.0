@@ -156,7 +156,7 @@ export default (() => {
 				</Strong>
 			</Text>
 		</Section>
-		<Components.Footer1 />
+		<Components.Footer5 />
 		<Components.Footer3 />
 		<Link
 			font={"--capture"}
