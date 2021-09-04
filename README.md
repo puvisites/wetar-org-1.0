@@ -17,6 +17,11 @@
          alt="Create React App version" />
   </a>
   
+  <a href="https://github.com/wetarteam/wetar-org-1.0/pulls">
+    <img src="https://badgen.net/github/prs/wetarteam/wetar-org-1.0" alt="Pull Request Amount">
+  </a>
+  <img src="https://badgen.net/github/last-commit/wetarteam/wetar-org-1.0" alt="Last commit date" />
+            
   <a href="./LICENSE">
     <img src="https://badgen.net/badge/license/MIT/blue"
          alt="License">

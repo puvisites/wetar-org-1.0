@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Strong, Text, Section, Image, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, Menu, StackItem, Stack } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -69,6 +69,7 @@ Expires October 25, 2021{"\n\n"}
 			flex-direction="row"
 			md-flex-direction="column"
 			background="#1808da"
+			align-content="center"
 		>
 			<Image width="64px" height="64px" src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/party-popper_1f389%20%281%29.png?v=2021-09-04T16:18:14.730Z" />
 			<Text
@@ -81,24 +82,20 @@ Expires October 25, 2021{"\n\n"}
 			>
 				WETAR
 			</Text>
-			<Menu
+			<Components.QuarklycommunityKitMenu
 				display="flex"
+				color="#fff"
+				align-items="center"
 				justify-content="center"
-				font="--base"
-				font-weight="700"
-				md-flex-direction="column"
-				md-align-items="center"
+				align-content="center"
+				margin="0px 0px 0px 15px"
 			>
-				<Override
-					slot="link"
-					text-decoration="none"
-					color="--light"
-					padding="6px 12px"
-					link-color="#fafafa"
-				/>
-				<Override slot="link-active" color="--primary" />
-				<Override slot="item" padding="6px" />
-			</Menu>
+				<Override slot="link" color="#f6f8f9" text-decoration-line="initial" active-color="#fff" />
+				<Override slot="item" color="#ffffff" />
+				<Override slot="item-active" color="#fff" />
+				<Override slot="item-index" color="#fff" />
+				<Override slot="link-active" color="#f6f8f9" />
+			</Components.QuarklycommunityKitMenu>
 		</Box>
 		<Section
 			background="#1808da"
