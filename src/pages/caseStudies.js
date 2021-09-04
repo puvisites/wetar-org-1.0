@@ -20,6 +20,7 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 		</Helmet>
+		<Components.Menu3 />
 		<Section
 			padding="60px 0"
 			sm-padding="40px 0"
@@ -156,6 +157,7 @@ export default (() => {
 			</Text>
 		</Section>
 		<Components.Footer1 />
+		<Components.Footer3 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

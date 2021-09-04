@@ -4,6 +4,7 @@ import { Theme, Link, Text, Section, Image, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"howwework"} />
@@ -19,6 +20,7 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 		</Helmet>
+		<Components.Menu3 />
 		<Section
 			sm-padding="40px 0"
 			sm-min-height="auto"
@@ -632,88 +634,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section
-			background-color="--dark"
-			text-align="center"
-			border-color="#2c01f7"
-			background="#28eca5"
-			display="block"
-			lazy-load
-		>
-			<Override
-				slot="SectionContent"
-				color="#fff6f6"
-				display="block"
-				sm-display="flex"
-				sm-align-items="stretch"
-				sm-justify-content="center"
-			/>
-			<Stack
-				margin-top="40px"
-				flex-wrap="wrap"
-				justify-content="center"
-				display="flex"
-				margin="0px -16px 0px -16px"
-			>
-				<StackItem
-					width="%"
-					lg-width="50%"
-					sm-width="100%"
-					display="block"
-					padding="0 16px 16px 16px"
-				>
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						text-transform="uppercase"
-						border-color="#2c01f7"
-						color="#2c01f7"
-					/>
-					<Link
-						href="#"
-						color="#2c01f7"
-						text-decoration-line="initial"
-						text-align="left"
-						sm-font="8px sans-serif"
-					>
-						<br />
-						<Strong>
-							WETAR © 2021 All Rights Reserved.{"\n\n"}
-						</Strong>
-					</Link>
-				</StackItem>
-				<StackItem lg-width="50%" sm-width="100%" display="flex" padding="0 16px 16px 16px">
-					<Override slot="StackItemContent" flex-direction="column" text-transform="uppercase" />
-					<Link
-						href="#"
-						color="#2c01f7"
-						text-decoration-line="initial"
-						text-align="left"
-						sm-font="8px sans-serif"
-					>
-						<br />
-						<Strong>
-							PRIVACY POLICY
-						</Strong>
-					</Link>
-				</StackItem>
-				<StackItem lg-width="50%" sm-width="100%" display="flex" padding="0 16px 16px 16px">
-					<Override slot="StackItemContent" flex-direction="column" text-transform="uppercase" />
-					<Link
-						href="#"
-						color="#2c01f7"
-						text-decoration-line="initial"
-						text-align="left"
-						sm-font="8px sans-serif"
-					>
-						<Strong>
-							<br />
-							TERMS{" "}
-						</Strong>
-					</Link>
-				</StackItem>
-			</Stack>
-		</Section>
+		<Components.Footer3 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

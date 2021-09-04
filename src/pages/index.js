@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Text, Section, Image, Box } from "@quarkly/widgets";
+import { Theme, Link, Strong, Text, Section, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -61,42 +61,7 @@ Expires October 25, 2021{"\n\n"}
 				</Strong>
 			</Text>
 		</Section>
-		<Box
-			display="flex"
-			padding="12px 15px 12px 20px"
-			justify-content="flex-start"
-			align-items="center"
-			flex-direction="row"
-			md-flex-direction="column"
-			background="#1808da"
-			align-content="center"
-		>
-			<Image width="64px" height="64px" src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/party-popper_1f389%20%281%29.png?v=2021-09-04T16:18:14.730Z" />
-			<Text
-				margin="0"
-				md-margin="0px 0 20px 0"
-				text-align="left"
-				font="--headline2"
-				color="#fff"
-				padding="0px 10px 0px 10px"
-			>
-				WETAR
-			</Text>
-			<Components.QuarklycommunityKitMenu
-				display="flex"
-				color="#fff"
-				align-items="center"
-				justify-content="center"
-				align-content="center"
-				margin="0px 0px 0px 15px"
-			>
-				<Override slot="link" color="#f6f8f9" text-decoration-line="initial" active-color="#fff" />
-				<Override slot="item" color="#ffffff" />
-				<Override slot="item-active" color="#fff" />
-				<Override slot="item-index" color="#fff" />
-				<Override slot="link-active" color="#f6f8f9" />
-			</Components.QuarklycommunityKitMenu>
-		</Box>
+		<Components.Menu3 />
 		<Section
 			background="#1808da"
 			padding="64px 0"
@@ -842,10 +807,13 @@ Expires October 25, 2021{"\n\n"}
 						background="#ffdb59"
 						border-style="solid"
 						border-width="3px"
+						align-items="center"
+						justify-content="flex-start"
 					/>
 					<Text font="900 32px --fontFamily-googleOpenSans" text-align="center">
-						WETAR.ORG
+						WETAR
 					</Text>
+					<Image width="64px" height="64px" src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/party-popper_1f389%20%281%29.png?v=2021-09-04T16:18:14.730Z" />
 					<Text text-align="center" padding="30 0px 0px 0px">
 						<Strong
 							overflow-wrap="normal"
@@ -964,15 +932,6 @@ Expires October 25, 2021{"\n\n"}
 							SOCIAL
 						</Strong>
 					</Text>
-					<Text
-						as="h3"
-						font="--headline3"
-						margin="20px 0 5px 0"
-						text-align="center"
-						sm-font="normal 500 18px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
-					>
-						Facebook
-					</Text>
 					<Link
 						href="https://discord.gg/bbZpThwCye"
 						font="--headline3"
@@ -994,96 +953,7 @@ Expires October 25, 2021{"\n\n"}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section
-			background-color="--dark"
-			text-align="center"
-			border-color="#2c01f7"
-			display="block"
-			lazy-load
-			background="#2c01f7"
-			padding="0px 0 px 0"
-			margin="-40px 0 0 0"
-		>
-			<Override
-				slot="SectionContent"
-				color="#fff6f6"
-				display="block"
-				sm-display="flex"
-				sm-align-items="stretch"
-				sm-justify-content="center"
-			/>
-			<Stack
-				margin-top="40px"
-				flex-wrap="wrap"
-				justify-content="center"
-				display="flex"
-				margin="0px -16px 0px -16px"
-				align-items="center"
-				lg-display="flex"
-				lg-align-items="flex-start"
-				lg-justify-content="center"
-				lg-flex-direction="row"
-				lg-text-align="left"
-			>
-				<StackItem
-					width="%"
-					lg-width="30%"
-					sm-width="100%"
-					display="block"
-					padding="0 16px 16px 16px"
-				>
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						text-transform="uppercase"
-						border-color="#2c01f7"
-						color="#2c01f7"
-					/>
-					<Link
-						href="#"
-						color="#fff"
-						text-decoration-line="initial"
-						text-align="left"
-						sm-font="8px sans-serif"
-					>
-						<br />
-						<Strong>
-							WETAR © 2021 All Rights Reserved.{"\n\n"}
-						</Strong>
-					</Link>
-				</StackItem>
-				<StackItem lg-width="25%" sm-width="100%" display="flex" padding="0 16px 16px 16px">
-					<Override slot="StackItemContent" flex-direction="column" text-transform="uppercase" />
-					<Link
-						href="#"
-						color="#fff"
-						text-decoration-line="initial"
-						text-align="left"
-						sm-font="8px sans-serif"
-					>
-						<br />
-						<Strong>
-							PRIVACY POLICY
-						</Strong>
-					</Link>
-				</StackItem>
-				<StackItem lg-width="25%" sm-width="100%" display="flex" padding="0 16px 16px 16px">
-					<Override slot="StackItemContent" flex-direction="column" text-transform="uppercase" />
-					<Link
-						href="#"
-						color="#fff"
-						text-decoration-line="initial"
-						text-align="left"
-						sm-font="8px sans-serif"
-					>
-						<Strong>
-							<br />
-							TERMS{" "}
-						</Strong>
-					</Link>
-				</StackItem>
-			</Stack>
-		</Section>
+		<Components.Footer3 />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
