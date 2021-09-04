@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hopeful-joliot-74d82a.netlify.app/sitemap-index.xml

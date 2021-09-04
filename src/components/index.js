@@ -1,0 +1,5 @@
+export { default as Footer1 } from "./Footer1"
+export { default as QuarklycommunityKitAnimation } from "./QuarklycommunityKitAnimation"
+export { default as QuarklycommunityKitLottie } from "./QuarklycommunityKitLottie"
+export { default as QuarklycommunityKitCounter } from "./QuarklycommunityKitCounter"
+export { default as Cards2 } from "./Cards2"
