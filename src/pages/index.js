@@ -203,7 +203,13 @@ Expires October 25, 2021{"\n\n"}
 				height="100%"
 				display="flex"
 			/>
-			<Components.QuarklycommunityKitAnimation iteration="once" animation="↓ Slide In" duration="0.3s">
+			<Components.QuarklycommunityKitAnimation
+				iteration="once"
+				animation="Beat"
+				test
+				timingFunction="ease"
+				duration="0.2s"
+			>
 				<Text
 					as="h1"
 					font="normal 1000 92px/1 --fontFamily-googleMontserrat"
