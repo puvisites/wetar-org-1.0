@@ -56,12 +56,12 @@ export default (() => {
 					text-overflow="clip"
 					hyphens="manual"
 				>
-					Run your Business websites at Rs.100 per month*| 
+					Run your Business websites at Rs.100 per month*   | 
 Expires October 25, 2021{"\n\n"}
 				</Strong>
 			</Text>
 		</Section>
-		<Components.Menu3 />
+		<Components.Menu31 />
 		<Section
 			background="#1808da"
 			padding="64px 0"
@@ -84,7 +84,13 @@ Expires October 25, 2021{"\n\n"}
 				height="100%"
 				display="flex"
 			/>
-			<Components.QuarklycommunityKitAnimation iteration="once" animation="↓ Slide In" test={false} duration="0.3s">
+			<Components.QuarklycommunityKitAnimation
+				iteration="once"
+				animation="Beat"
+				test
+				timingFunction="ease"
+				duration="0.2s"
+			>
 				<Text
 					as="h1"
 					font="normal 1000 92px/1 --fontFamily-googleMontserrat"
@@ -98,7 +104,6 @@ Expires October 25, 2021{"\n\n"}
 					WEBSITES FOR EVERYONE.
 				</Text>
 			</Components.QuarklycommunityKitAnimation>
-			<Components.QuarklycommunityKitLottie path="https://assets4.lottiefiles.com/packages/lf20_7fy2yzzs.json" width="500px" />
 			<Text
 				lg-background="#ffdb59"
 				lg-color="#000"
@@ -214,7 +219,6 @@ Expires October 25, 2021{"\n\n"}
 					WITH US
 				</Text>
 			</Components.QuarklycommunityKitAnimation>
-			<Components.QuarklycommunityKitLottie path="https://assets4.lottiefiles.com/packages/lf20_3ktmthuy.json" width="800px" margin="0px 0px 0px 0px" />
 			<Text
 				lg-background="#ffdb59"
 				lg-color="#000"
@@ -462,7 +466,6 @@ Expires October 25, 2021{"\n\n"}
 			border-style="solid"
 		>
 			<Override slot="SectionContent" transition="all 3s ease-in 0s" />
-			<Components.QuarklycommunityKitLottie path="https://assets4.lottiefiles.com/packages/lf20_27cgfczo.json" />
 			<Text
 				font="normal 900 72px/1.2 --fontFamily-googleMontserrat"
 				text-align="center"
@@ -695,7 +698,6 @@ Expires October 25, 2021{"\n\n"}
 			border-color="#000508"
 		>
 			<Override slot="SectionContent" transition="all 3s ease-in 0s" />
-			<Components.QuarklycommunityKitLottie path="https://assets4.lottiefiles.com/packages/lf20_tk7vvok1.json" width="500px" height="300px" />
 			<Text
 				font="--headline1"
 				text-align="center"
@@ -800,7 +802,29 @@ Expires October 25, 2021{"\n\n"}
 		</Section>
 		<Components.Footer5 />
 		<Components.Footer3 />
-				<RawHtml>
+		<Link
+			font={"--capture"}
+			font-size={"10px"}
+			position={"fixed"}
+			bottom={"12px"}
+			right={"12px"}
+			z-index={"4"}
+			border-radius={"4px"}
+			padding={"5px 12px 4px"}
+			background-color={"--dark"}
+			opacity={"0.6"}
+			hover-opacity={"1"}
+			color={"--light"}
+			cursor={"pointer"}
+			transition={"--opacityOut"}
+			quarkly-title={"Badge"}
+			text-decoration-line={"initial"}
+			href={"https://quarkly.io/"}
+			target={"_blank"}
+		>
+			Made on Quarkly
+		</Link>
+		<RawHtml>
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>

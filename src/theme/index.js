@@ -62,7 +62,9 @@ export default {
 		"googleBarlowSemiCondensed": "\"Barlow Semi Condensed\", sans-serif",
 		"googleHammersmithOne": "\"Hammersmith One\", sans-serif",
 		"googleDaysOne": "\"Days One\", sans-serif",
-		"googleRubikMonoOne": "\"Rubik Mono One\", sans-serif"
+		"googleRubikMonoOne": "\"Rubik Mono One\", sans-serif",
+		"googleIbmPlexSans": "\"IBM Plex Sans\", sans-serif",
+		"googleIbmPlexMono": "\"IBM Plex Mono\", monospace"
 	},
 	"font": {
 		"headline1": "normal 900 72px/1.2 --fontFamily-sans",
@@ -496,7 +498,53 @@ export default {
 					"regular"
 				]
 			}
+		},
+		"IBM Plex Sans": {
+			"family": "IBM Plex Sans",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"100italic",
+					"200",
+					"200italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"500",
+					"500italic",
+					"600",
+					"600italic",
+					"700",
+					"700italic"
+				]
+			}
+		},
+		"IBM Plex Mono": {
+			"family": "IBM Plex Mono",
+			"type": "google-fonts",
+			"meta": {
+				"category": "monospace",
+				"variants": [
+					"100",
+					"100italic",
+					"200",
+					"200italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"500",
+					"500italic",
+					"600",
+					"600italic",
+					"700",
+					"700italic"
+				]
+			}
 		}
 	},
-	"version": 20
+	"version": 23
 }
