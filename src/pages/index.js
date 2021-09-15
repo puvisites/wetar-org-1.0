@@ -57,11 +57,11 @@ export default (() => {
 					hyphens="manual"
 				>
 					Run your Business websites at Rs.100 per month*   | 
-Expires October 25, 2021{"\n\n"}
+Expires October 25, 2021
 				</Strong>
 			</Text>
 		</Section>
-		<Components.Menu31 />
+		<Components.Menu2 />
 		<Section
 			background="#1808da"
 			padding="64px 0"
@@ -84,13 +84,7 @@ Expires October 25, 2021{"\n\n"}
 				height="100%"
 				display="flex"
 			/>
-			<Components.QuarklycommunityKitAnimation
-				iteration="once"
-				animation="Beat"
-				test
-				timingFunction="ease"
-				duration="0.2s"
-			>
+			<Components.QuarklycommunityKitAnimation iteration="once" animation="Blink" test={false} duration="2s">
 				<Text
 					as="h1"
 					font="normal 1000 92px/1 --fontFamily-googleMontserrat"
@@ -117,6 +111,8 @@ Expires October 25, 2021{"\n\n"}
 				font="--headline2"
 				border-style="solid"
 				border-width="2px"
+				flex="0 0 auto"
+				text-align="center"
 			>
 				BRAND WITH US{" "}
 			</Text>
@@ -239,6 +235,7 @@ Expires October 25, 2021{"\n\n"}
 				border-style="solid"
 				border-width="2px"
 				margin="0px 0px 0px 0px"
+				text-align="center"
 			>
 				BUILD. MARKET YOUR BRAND
 			</Text>
@@ -272,7 +269,7 @@ Expires October 25, 2021{"\n\n"}
 				web design and branding agency based in Tamil Nadu and Pondicherry
 				<br />
 				<br />
-				We create world-class digital products.{"\n\n\n\n"}
+				We create world-class digital products.
 			</Text>
 			<Stack
 				margin-top="40px"
@@ -280,6 +277,8 @@ Expires October 25, 2021{"\n\n"}
 				flex-direction="row-reverse"
 				display="flex"
 				lg-flex-direction="row-reverse"
+				flex="0 0 auto"
+				gap="0.5px"
 			>
 				<StackItem
 					width="25%"
@@ -454,14 +453,14 @@ Expires October 25, 2021{"\n\n"}
 						>
 							Stay ahead of the curve:
 						</Strong>
-						{" "}support for the latest web standards with HTTP/3, QUIC, image compression out of the box, and more.{"\n\n"}
+						{" "}support for the latest web standards with HTTP/3, QUIC, image compression out of the box, and more.
 					</Text>
 					<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/global-network.svg?v=2021-06-26T08:30:04.378Z" sm-display="block" padding="80px 0px 0px 0px" />
 				</StackItem>
 			</Stack>
 		</Section>
 		<Section
-			background="--color-darkL2 url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Frame%202.png?v=2021-07-20T12:08:46.923Z) center/cover repeat-x scroll"
+			background="--color-red url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/conifer-searching.png?v=2021-07-10T12:20:30.067Z) center/cover repeat-x scroll"
 			sm-padding="40px 0"
 			color="--light"
 			font="--base"
@@ -487,6 +486,7 @@ Expires October 25, 2021{"\n\n"}
 			</Text>
 		</Section>
 		<Section
+			id="pricing"
 			padding="60px 0"
 			sm-padding="40px 0"
 			min-height="600px"
@@ -536,9 +536,8 @@ Expires October 25, 2021{"\n\n"}
 					</Text>
 					<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Remote1.png?v=2021-07-20T11:18:52.623Z" padding="40px 0px 40px 0px" />
 					<Text color="#002ba5" margin="0" text-align="center">
-						For personal sites, Hobby sites, Business sites, Product sites.{"\n"}
+						For personal sites, Hobby sites, Business sites, Product sites.
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text as="p" margin="20px 0 5px 0" text-align="center">
 						Static website,
@@ -558,7 +557,6 @@ Expires October 25, 2021{"\n\n"}
 						99.9 % Uptime Guaranteed.
 						<br />
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
 						₹99
@@ -579,7 +577,6 @@ Expires October 25, 2021{"\n\n"}
 					<Text color="#002ba5" margin="0" text-align="center">
 						Optimized for small and Medium Business, Blogs
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text as="p" margin="20px 0 5px 0" text-align="center">
 						Dynamic website,
@@ -596,9 +593,8 @@ Expires October 25, 2021{"\n\n"}
 						<br />
 						Free Upgrade,
 						<br />
-						99.9 % Uptime Guaranteed.{"\n\n"}
+						99.9 % Uptime Guaranteed.
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center" margin="30px 0px 16px 0px">
 						₹129
@@ -619,7 +615,6 @@ Expires October 25, 2021{"\n\n"}
 					<Text color="#002ba5" margin="0" text-align="center">
 						Start selling online and Start your business.
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text as="p" margin="20px 0 5px 0" text-align="center">
 						Unlimited products,
@@ -636,9 +631,8 @@ Expires October 25, 2021{"\n\n"}
 						<br />
 						Free Upgrade,
 						<br />
-						99.9 % Uptime Guaranteed.{"\n\n"}
+						99.9 % Uptime Guaranteed.
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center" margin="40px 0px 16px 0px">
 						₹199
@@ -659,7 +653,6 @@ Expires October 25, 2021{"\n\n"}
 					<Text color="#002ba5" margin="0" text-align="center">
 						UX powered sites .Powerful business. Powerful Hosting.
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text as="p" margin="20px 0 5px 0" text-align="center">
 						Static & Dyamic website,
@@ -680,9 +673,8 @@ Expires October 25, 2021{"\n\n"}
 						<br />
 						Easy CMS & Ecommerce,
 						<br />
-						Powerful SEO.{"\n\n"}
+						Powerful SEO.
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text font="900 40px --fontFamily-googleOpenSans" text-align="center">
 						Cloud
@@ -693,7 +685,7 @@ Expires October 25, 2021{"\n\n"}
 			</Stack>
 		</Section>
 		<Section
-			background="--color-darkL2 url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Frame%203.png?v=2021-07-20T12:12:52.529Z) center/cover repeat-x scroll"
+			background="--color-secondary url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/conifer-189%20%281%29.png?v=2021-07-12T17:25:04.033Z) center/contain repeat-x scroll"
 			sm-padding="40px 0"
 			color="--light"
 			font="--base"
@@ -768,18 +760,18 @@ Expires October 25, 2021{"\n\n"}
 			<Stack>
 				<StackItem lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" width="100% border-box" />
-					<Components.QuarklycommunityKitAnimation iteration="once" animation="→ Slide In" duration="0.2s">
+					<Components.QuarklycommunityKitAnimation iteration="once" animation="Grow In" duration="0.2s">
 						<Text
 							as="h1"
-							font="normal 1000 94px/1.2 --fontFamily-googleMontserrat"
+							font="normal 1000 74px/1.2 --fontFamily-googleMontserrat"
 							md-font="--headline2"
 							margin="10px 0"
 							color="#ffdb59"
 						>
-							We grow businesses by creating unified brand experiences people love.{"\n\n"}
+							We grow businesses by creating unified brand experiences people love.
 						</Text>
 					</Components.QuarklycommunityKitAnimation>
-					<Components.QuarklycommunityKitAnimation iteration="once" animation="← Slide In" duration="0.2s">
+					<Components.QuarklycommunityKitAnimation iteration="once" animation="Grow In" duration="0.2s">
 						<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/idea.svg?v=2021-07-03T16:23:52.620Z" />
 					</Components.QuarklycommunityKitAnimation>
 					<Text
@@ -793,13 +785,20 @@ Expires October 25, 2021{"\n\n"}
 					</Text>
 				</StackItem>
 			</Stack>
-			<Link href="https://api.whatsapp.com/send?phone=919176552266&text=Hi," color="#0ae38c" font="--headline1" text-decoration-line="underline">
+			<Link
+				href="https://api.whatsapp.com/send?phone=919176552266&text=Hi,"
+				color="#0ae38c"
+				font="normal 900 52px/1.2 --fontFamily-sans"
+				text-decoration-line="underline"
+				flex="0 0 auto"
+				display="block"
+			>
 				TELEGRAM
 			</Link>
 			<Link
 				href="https://tawk.to/chat/60d8c7fa7f4b000ac039d03f/1f97cqap3"
 				color="#f5f5f7"
-				font="--headline1"
+				font="normal 900 52px/1.2 --fontFamily-sans"
 				text-decoration-line="underline"
 				text-transform="uppercase"
 			>
@@ -808,7 +807,28 @@ Expires October 25, 2021{"\n\n"}
 		</Section>
 		<Components.Footer5 />
 		<Components.Footer3 />
-		
+		<Link
+			font={"--capture"}
+			font-size={"10px"}
+			position={"fixed"}
+			bottom={"12px"}
+			right={"12px"}
+			z-index={"4"}
+			border-radius={"4px"}
+			padding={"5px 12px 4px"}
+			background-color={"--dark"}
+			opacity={"0.6"}
+			hover-opacity={"1"}
+			color={"--light"}
+			cursor={"pointer"}
+			transition={"--opacityOut"}
+			quarkly-title={"Badge"}
+			text-decoration-line={"initial"}
+			href={"https://quarkly.io/"}
+			target={"_blank"}
+		>
+			Made on Quarkly
+		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}

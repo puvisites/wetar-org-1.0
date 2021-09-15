@@ -20,7 +20,13 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 		</Helmet>
-		<Components.Menu31 />
+		<Components.Menu3>
+			<Override slot="text" font="normal 500 28px/1.2 --fontFamily-googleIbmPlexMono" letter-spacing="1.5px">
+				<Strong>
+					WETAR SITES
+				</Strong>
+			</Override>
+		</Components.Menu3>
 		<Section
 			padding="60px 0"
 			sm-padding="40px 0"
@@ -158,7 +164,29 @@ export default (() => {
 		</Section>
 		<Components.Footer5 />
 		<Components.Footer3 />
-				<RawHtml>
+		<Link
+			font={"--capture"}
+			font-size={"10px"}
+			position={"fixed"}
+			bottom={"12px"}
+			right={"12px"}
+			z-index={"4"}
+			border-radius={"4px"}
+			padding={"5px 12px 4px"}
+			background-color={"--dark"}
+			opacity={"0.6"}
+			hover-opacity={"1"}
+			color={"--light"}
+			cursor={"pointer"}
+			transition={"--opacityOut"}
+			quarkly-title={"Badge"}
+			text-decoration-line={"initial"}
+			href={"https://quarkly.io/"}
+			target={"_blank"}
+		>
+			Made on Quarkly
+		</Link>
+		<RawHtml>
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
