@@ -834,8 +834,9 @@ Expires October 25, 2021
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
 			<script place={"endOfHead"} rawKey={"6142347bb9410e0ea160befe"}>
-				{"<!-- ManyChat -->\n<script src=\"//widget.manychat.com/109054494772046.js\" defer=\"defer\"></script>\n<script src=\"https://mccdn.me/assets/js/widget.js\" defer=\"defer\"></script>"}
+				src=\"//widget.manychat.com/109054494772046.js\" defer=\"defer\" 
+	src=\"https://mccdn.me/assets/js/widget.js\" defer=\"defer\"
 			</script>
-		</RawHtml>
+	</RawHtml>
 	</Theme>;
 });
