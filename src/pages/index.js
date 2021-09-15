@@ -19,10 +19,7 @@ export default (() => {
 			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
-		<!-- ManyChat -->
-<script src="//widget.manychat.com/109054494772046.js" defer="defer"></script>
-<script src="https://mccdn.me/assets/js/widget.js" defer="defer"></script>
-	</Helmet>
+		</Helmet>
 		<Section
 			background="linear-gradient(0deg,#28eca5 100%,rgba(0,0,0,1) 100%),rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/55156-confetti.gif?v=2021-07-03T12:18:01.207Z) 0/contain repeat scroll"
 			position="static"
@@ -836,6 +833,9 @@ Expires October 25, 2021
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
+			<script place={"endOfHead"} rawKey={"614222e7fba80b8c880f9ae8"}>
+				{"<!-- ManyChat -->\n<script src=\"//widget.manychat.com/109054494772046.js\" defer=\"defer\"></script>\n<script src=\"https://mccdn.me/assets/js/widget.js\" defer=\"defer\"></script>"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });
