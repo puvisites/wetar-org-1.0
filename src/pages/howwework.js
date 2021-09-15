@@ -69,7 +69,7 @@ export default (() => {
 					text-align="center"
 					background="#0505ff"
 				/>
-				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-8.png?v=2021-09-03T16:04:57.724Z" display="flex" width="500p" />
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-2.png?v=2021-09-03T16:00:21.211Z" display="flex" width="500p" />
 				<Text
 					color="#ffdb59"
 					font="--headline3"
@@ -96,19 +96,12 @@ export default (() => {
 					text-decoration-line="initial"
 					background="#0505ff"
 					padding="10px 0px 10px 15px"
+					target="_blank"
 				>
-					<Strong
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-					>
-						Health ,Class
+					<Strong>
+						Health, Class
+						<br />
 					</Strong>
-					,{" "}
-					<br />
 					add your own components
 
   ⟶{"\n\n"}
