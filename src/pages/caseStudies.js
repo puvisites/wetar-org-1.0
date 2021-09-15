@@ -190,8 +190,14 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
-			<script place={"endOfHead"} rawKey={"6142552400bb2091b5cd8261"}>
-				{"<!-- ManyChat -->\nsrc=\"//widget.manychat.com/109054494772046.js\" defer=\"defer\"\nsrc=\"https://mccdn.me/assets/js/widget.js\" defer=\"defer\""}
+			<script
+				defer={true}
+				src={"https://mccdn.me/assets/js/widget.js"}
+				type={""}
+				place={"endOfHead"}
+				rawKey={"6142552400bb2091b5cd8261"}
+			>
+				{"src=\"//widget.manychat.com/109054494772046.js\" "}
 			</script>
 		</RawHtml>
 	</Theme>;
