@@ -511,13 +511,7 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
-			<script
-				async={false}
-				defer={true}
-				src={"src=\"https://mccdn.me/assets/js/widget.js"}
-				place={"endOfBody"}
-				rawKey={"614218255bfdf70b88433342"}
-			>
+			<script defer={true} src={"src=\"https://mccdn.me/assets/js/widget.js"} place={"endOfHead"} rawKey={"61421d70944b78bfa43fc719"}>
 				{"src=\"//widget.manychat.com/109054494772046.js\""}
 			</script>
 		</RawHtml>
