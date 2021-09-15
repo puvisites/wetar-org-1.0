@@ -69,7 +69,7 @@ export default (() => {
 					text-align="center"
 					background="#0505ff"
 				/>
-				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-2.png?v=2021-09-03T16:00:21.211Z" display="flex" width="500p" />
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-8.png?v=2021-09-03T16:04:57.724Z" display="flex" width="500p" />
 				<Text
 					color="#ffdb59"
 					font="--headline3"
@@ -511,6 +511,9 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
+			<script place={"endOfBody"} rawKey={"614218255bfdf70b88433342"}>
+				{"      var chatbox = document.getElementById('fb-customer-chat');\n      chatbox.setAttribute(\"page_id\", \"109054494772046\");\n      chatbox.setAttribute(\"attribution\", \"biz_inbox\");\n\n      window.fbAsyncInit = function() {\n        FB.init({\n          xfbml            : true,\n          version          : 'v12.0'\n        });\n      };\n\n      (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });
