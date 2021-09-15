@@ -953,7 +953,9 @@ Expires October 25, 2021
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
-			<script place={"endOfHead"} rawKey={"6142347bb9410e0ea160befe"} src=\"//widget.manychat.com/109054494772046.js\" defer=\"defer\"></script>\n<script src=\"https://mccdn.me/assets/js/widget.js\" defer=\"defer\"></script>"}
-			</RawHtml>
+			<script place={"endOfHead"} rawKey={"6142347bb9410e0ea160befe"}>
+				{" var chatbox = document.getElementById('fb-customer-chat');\n      chatbox.setAttribute(\"page_id\", \"109054494772046\");\n      chatbox.setAttribute(\"attribution\", \"biz_inbox\");\n\n      window.fbAsyncInit = function() {\n        FB.init({\n          xfbml            : true,\n          version          : 'v12.0'\n        });\n      };\n\n      (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));"}
+			</script>
+		</RawHtml>
 	</Theme>;
 });
