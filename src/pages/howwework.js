@@ -97,7 +97,14 @@ export default (() => {
 					background="#0505ff"
 					padding="10px 0px 10px 15px"
 				>
-					<Strong>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
 						Health ,Class
 					</Strong>
 					,{" "}
