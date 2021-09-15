@@ -805,7 +805,127 @@ Expires October 25, 2021
 				or Chat
 			</Link>
 		</Section>
-		<Components.Footer5 />
+		<Section
+			padding="64px 0"
+			sm-padding="40px 0"
+			font="--base"
+			color="--dark"
+			background="#28eca5"
+		>
+			<Stack margin-top="40px" flex-wrap="wrap">
+				<StackItem width="25%" lg-width="50%" sm-width="100%" height="auto">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#ffdb59"
+						border-style="solid"
+						border-width="3px"
+						align-items="center"
+						justify-content="flex-start"
+					/>
+					<Text font="900 32px --fontFamily-googleOpenSans" text-align="center">
+						WETAR
+					</Text>
+					<Image width="64px" height="64px" src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/party-popper_1f389%20%281%29.png?v=2021-09-04T16:18:14.730Z" />
+					<Text text-align="center" padding="30 0px 0px 0px">
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							#D47, PHB, PDY - 11
+						</Strong>
+					</Text>
+				</StackItem>
+				<StackItem width="25%" lg-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#28eca5"
+						border-width="3px"
+						align-items="flex-start"
+						padding="0px 0px 10px 20px"
+					/>
+					<Text font="200 30px --fontFamily-googleOpenSans" text-align="center" color="#2c01f7">
+						<Strong>
+							PRODUCTS
+						</Strong>
+					</Text>
+					<Text
+						as="h3"
+						font="--headline3"
+						margin="20px 0 5px 0"
+						text-align="center"
+						sm-font="normal 500 18px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+					>
+						Pages
+					</Text>
+					<Text
+						as="h3"
+						font="--headline3"
+						margin="20px 0 5px 0"
+						text-align="center"
+						sm-font="normal 500 18px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+					>
+						Pages +
+					</Text>
+					<Text
+						as="h3"
+						font="--headline3"
+						margin="20px 0 5px 0"
+						text-align="center"
+						sm-font="normal 500 18px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+					>
+						Stores
+					</Text>
+					<Text
+						as="h3"
+						font="--headline3"
+						margin="20px 0 5px 0"
+						text-align="center"
+						sm-font="normal 500 18px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+					>
+						Pages Ux
+					</Text>
+				</StackItem>
+				<StackItem width="25%" lg-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#28eca5"
+						border-width="3px"
+						align-items="flex-start"
+						padding="0px 0px 0px 20px"
+					/>
+					<Text font="200 30px --fontFamily-googleOpenSans" text-align="center" color="#2c01f7">
+						<Strong>
+							SOCIAL
+						</Strong>
+					</Text>
+					<Link
+						href="https://discord.gg/bbZpThwCye"
+						font="--headline3"
+						color="#000008"
+						hover-color="#0808d6"
+						text-decoration-line="initial"
+					>
+						Discord
+					</Link>
+					<Link
+						href="https://discord.gg/bbZpThwCye"
+						font="--headline3"
+						color="#000008"
+						hover-color="#0808d6"
+						text-decoration-line="initial"
+					>
+						Telegram
+					</Link>
+				</StackItem>
+			</Stack>
+		</Section>
 		<Components.Footer3 />
 		<Link
 			font={"--capture"}
@@ -834,9 +954,8 @@ Expires October 25, 2021
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
 			<script place={"endOfHead"} rawKey={"6142347bb9410e0ea160befe"}>
-				src=\"//widget.manychat.com/109054494772046.js\" defer=\"defer\" 
-	src=\"https://mccdn.me/assets/js/widget.js\" defer=\"defer\"
+				{"<!-- ManyChat -->\n<script src=\"//widget.manychat.com/109054494772046.js\" defer=\"defer\"></script>\n<script src=\"https://mccdn.me/assets/js/widget.js\" defer=\"defer\"></script>"}
 			</script>
-	</RawHtml>
+		</RawHtml>
 	</Theme>;
 });
