@@ -634,6 +634,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Footer3 />
+		<Components.FbChat />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

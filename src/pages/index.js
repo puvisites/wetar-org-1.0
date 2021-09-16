@@ -76,8 +76,8 @@ Expires October 25, 2021
 				color="#fff"
 				padding="0px 20px 0px 20px"
 				text-decoration-line="initial"
-				href="/index"
 				font="30px --fontFamily-googleIbmPlexMono"
+				href="https://wetar.org"
 			>
 				<Strong
 					overflow-wrap="normal"
