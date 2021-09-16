@@ -632,7 +632,7 @@ export default (() => {
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
 			<script defer={false} src={""} place={"endOfHead"} rawKey={"6142eafbf283b1b34c331efb"}>
-				{"<src=\"//widget.manychat.com/109054494772046.js\" defer=\"defer\">\n<src=\"https://mccdn.me/assets/js/widget.js\" defer=\"defer\">"}
+				{"<!-- ManyChat -->\n<script src=\"//widget.manychat.com/109054494772046.js\" defer=\"defer\"></script>\n<script src=\"https://mccdn.me/assets/js/widget.js\" defer=\"defer\"></script>"}
 			</script>
 		</RawHtml>
 	</Theme>;
