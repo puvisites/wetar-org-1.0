@@ -23,7 +23,7 @@ export default {
 		},
 		"60d4673ad3b536001e86f530": {
 			"id": "60d4673ad3b536001e86f530",
-			"pageUrl": "howwework",
+			"pageUrl": "templates",
 			"name": "How It works"
 		},
 		"60d6ed543f4eb1001ea27322": {
