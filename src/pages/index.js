@@ -952,12 +952,7 @@ Expires October 25, 2021
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
-	<!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+	
 			</style>
 			
     <script place={"endOfHead"} rawKey={"6142eafbf283b1b34c331efb"}>
