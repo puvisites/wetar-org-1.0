@@ -953,9 +953,8 @@ Expires October 25, 2021
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
 			</style>
-			<script defer={true} src={"https://mccdn.me/assets/js/widget.js\"} place={"endOfHead"} rawKey={"6142eafbf283b1b34c331efb"}>
-				src={"//widget.manychat.com/109054494772046.js\"}
-			</script>
+			<script place={"endOfHead"} rawKey={"6142eafbf283b1b34c331efb"} src="//widget.manychat.com/109054494772046.js" defer="defer"></script>
+<script src="https://mccdn.me/assets/js/widget.js" defer="defer"></script>
 		</RawHtml>
 	</Theme>;
 });
