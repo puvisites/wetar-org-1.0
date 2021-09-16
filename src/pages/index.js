@@ -927,6 +927,7 @@ Expires October 25, 2021
 			</Stack>
 		</Section>
 		<Components.Footer3 />
+		<Components.FbChat />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -952,29 +953,7 @@ Expires October 25, 2021
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
-	
 			</style>
-			
-    <script place={"endOfHead"} rawKey={"6142eafbf283b1b34c331efb"}>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "109054494772046");
-      chatbox.setAttribute("attribution", "biz_inbox");
-
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v12.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
 		</RawHtml>
 	</Theme>;
 });
