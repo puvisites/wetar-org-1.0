@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section, Image, Strong } from "@quarkly/widgets";
+import { Theme, Link, Image, Strong, Box, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -20,7 +20,36 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2817%29.png?v=2021-09-04T16:14:25.304Z"} />
 		</Helmet>
-		<Components.Menu2 />
+		<Box
+			display="flex"
+			padding="12px 15px 12px 20px"
+			justify-content="flex-start"
+			align-items="center"
+			flex-direction="row"
+			md-flex-direction="column"
+			background="#1808da"
+			align-content="center"
+		>
+			<Image width="64px" height="64px" src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/party-popper_1f389%20%281%29.png?v=2021-09-04T16:18:14.730Z" />
+			<Link
+				color="#fff"
+				padding="0px 20px 0px 20px"
+				text-decoration-line="initial"
+				href="/index"
+				font="30px --fontFamily-googleIbmPlexMono"
+			>
+				<Strong>
+					WETAR SITES
+				</Strong>
+				{"\n\n"}
+			</Link>
+			<Link color="#fff" padding="0px 20px 0px 20px" text-decoration-line="initial" href="/index#pricing">
+				Pricing
+			</Link>
+			<Link color="#fff" padding="0px 20px 0px 20px" text-decoration-line="initial" href="/howwework">
+				Templates
+			</Link>
+		</Box>
 		<Section
 			sm-padding="40px 0"
 			sm-min-height="auto"

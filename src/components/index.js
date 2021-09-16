@@ -1,4 +1,3 @@
-export { default as Menu2 } from "./Menu2"
 export { default as QuarklycommunityKitAnimation } from "./QuarklycommunityKitAnimation"
 export { default as Cards2 } from "./Cards2"
 export { default as Footer3 } from "./Footer3"
