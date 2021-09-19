@@ -103,6 +103,8 @@ Expires October 25, 2021
 				background="#ffdb59"
 				color="#010910"
 				font="normal 700 16px/1.5 --fontFamily-googleIbmPlexMono"
+				type="link"
+				text-decoration-line="initial"
 			>
 				START NOW
 			</Button>
