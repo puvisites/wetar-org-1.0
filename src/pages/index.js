@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Text, Section, Image, Box } from "@quarkly/widgets";
+import { Theme, Link, Strong, Text, Section, Image, Button, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -97,6 +97,15 @@ Expires October 25, 2021
 			<Link color="#fff" padding="0px 20px 0px 20px" text-decoration-line="initial" href="/howwework">
 				Templates
 			</Link>
+			<Button
+				href="https://wetar-beta-93426b.ingress-daribow.easywp.com/"
+				target="_blank"
+				background="#ffdb59"
+				color="#010910"
+				font="normal 700 16px/1.5 --fontFamily-googleIbmPlexMono"
+			>
+				START NOW
+			</Button>
 		</Box>
 		<Section
 			background="#1808da"
@@ -784,7 +793,180 @@ Expires October 25, 2021
 			>
 				BUILD PRICINGS
 			</Text>
-			<Components.Cards2 />
+			<Stack
+				margin-top="40px"
+				flex-wrap="wrap"
+				align-items="center"
+				justify-content="center"
+				display="flex"
+			>
+				<StackItem width="50%" lg-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#ffdb59"
+						border-style="solid"
+						border-width="3px"
+					/>
+					<Text
+						as="h3"
+						font="--headline2"
+						margin="5px 0 20px 0"
+						text-align="center"
+						padding="20px 0px 0px 0px"
+					>
+						WEBSITE
+					</Text>
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/web%20development.svg?v=2021-07-03T14:57:22.597Z) 50% 0/cover no-repeat" />
+					<Text color="#002ba5" margin="0" text-align="center">
+						Dynamic & Static Websites, Full support, Free upgrade to other plans.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
+						₹100 /Hr
+					</Text>
+				</StackItem>
+				<StackItem width="50%" lg-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#ffc3b6"
+						border-style="solid"
+						border-width="3px"
+					/>
+					<Text
+						as="h3"
+						font="--headline2"
+						margin="5px 0 20px 0"
+						text-align="center"
+						padding="20px 0px 0px 0px"
+					>
+						CUSTOM BUSINESS APPS
+					</Text>
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/build%20%20product.svg?v=2021-07-03T15:08:44.889Z) 50% 0/cover no-repeat" />
+					<Text color="#002ba5" margin="0" text-align="center">
+						Powerful apps built on zoho creator, App Sheet.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
+						₹100 /Hr
+					</Text>
+				</StackItem>
+				<StackItem width="50%" lg-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#ffb74b"
+						border-style="solid"
+						border-width="3px"
+					/>
+					<Text
+						as="h3"
+						font="--headline2"
+						margin="5px 0 20px 0"
+						text-align="center"
+						padding="20px 0px 0px 0px"
+					>
+						SOCIAL MEDIA MARKETING
+					</Text>
+					<Box
+						height="0"
+						padding-bottom="100%"
+						background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/016.png?v=2021-07-12T15:23:07.974Z) 50% 0/cover no-repeat"
+						padding="0px 0px 554PX 0px"
+						margin="0px 0px 20PX 0px"
+					/>
+					<Text color="#002ba5" margin="0" text-align="center">
+						Facebook, Instagram Marketing
+					</Text>
+					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
+						₹100 /Hr
+					</Text>
+				</StackItem>
+				<StackItem width="50%" lg-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#dee3ff"
+						border-style="solid"
+						border-width="3px"
+					/>
+					<Text
+						as="h3"
+						font="--headline2"
+						margin="5px 0 20px 0"
+						text-align="center"
+						padding="20px 0px 0px 0px"
+					>
+						EMAIL AND SMS MARKETING
+					</Text>
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/market%20research%20colored.svg?v=2021-07-03T15:25:45.686Z) 50% 0/cover no-repeat" />
+					<Text color="#002ba5" margin="0" text-align="center">
+						Costs at 0.25 INR per Sms & o.o35 per Email.
+						<br />
+						{"\n\n"}
+					</Text>
+					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
+						₹100 /Hr
+					</Text>
+				</StackItem>
+				<StackItem width="50%" lg-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#7dcdfc"
+						border-style="solid"
+						border-width="3px"
+					/>
+					<Text
+						as="h3"
+						font="--headline2"
+						margin="5px 0 20px 0"
+						text-align="center"
+						padding="20px 0px 0px 0px"
+					>
+						FACEBOOK CHATBOTS
+					</Text>
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/chatbot.svg?v=2021-07-03T15:31:24.442Z) 50% 0/cover no-repeat" />
+					<Text color="#002ba5" margin="0" text-align="center">
+						Starts from ₹850 per month as per customer counts. Ecommerce Chat.
+						<br />
+						Automate, acquire and grow audience.{"\n\n"}
+					</Text>
+					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
+						₹100 /Hr
+					</Text>
+				</StackItem>
+				<StackItem width="50%" lg-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						background="#28eca5"
+						border-style="solid"
+						border-width="3px"
+					/>
+					<Text
+						as="h3"
+						font="--headline2"
+						margin="5px 0 20px 0"
+						text-align="center"
+						padding="20px 0px 0px 0px"
+					>
+						WHATSAPP CHATBOT
+					</Text>
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/chatting%20using%20apps.svg?v=2021-07-03T15:57:52.920Z) 50% 0/cover no-repeat" />
+					<Text color="#002ba5" margin="0" text-align="center">
+						Official and Unofficial bots. Starts from ₹400 per month for 500 customers.
+						<br />
+						+2k for server cost. Ecommerce chat & best support.{"\n\n"}
+					</Text>
+					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
+						₹100 /Hr
+					</Text>
+				</StackItem>
+			</Stack>
 		</Section>
 		<Section
 			padding="64px 0"
@@ -964,6 +1146,28 @@ Expires October 25, 2021
 		</Section>
 		<Components.Footer3 />
 		<Components.FbChat />
+		<Link
+			font={"--capture"}
+			font-size={"10px"}
+			position={"fixed"}
+			bottom={"12px"}
+			right={"12px"}
+			z-index={"4"}
+			border-radius={"4px"}
+			padding={"5px 12px 4px"}
+			background-color={"--dark"}
+			opacity={"0.6"}
+			hover-opacity={"1"}
+			color={"--light"}
+			cursor={"pointer"}
+			transition={"--opacityOut"}
+			quarkly-title={"Badge"}
+			text-decoration-line={"initial"}
+			href={"https://quarkly.io/"}
+			target={"_blank"}
+		>
+			Made on Quarkly
+		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"60d350285179a1001e683fe6"}>
 				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
