@@ -94,7 +94,7 @@ Expires October 25, 2021
 			<Link color="#fff" padding="0px 20px 0px 20px" text-decoration-line="initial" href="/index#pricing">
 				Pricing
 			</Link>
-			<Link color="#fff" padding="0px 20px 0px 20px" text-decoration-line="initial" href="/howwework">
+			<Link color="#fff" padding="0px 20px 0px 20px" text-decoration-line="initial" href="/templates">
 				Templates
 			</Link>
 			<Button
@@ -435,7 +435,7 @@ Expires October 25, 2021
 			sm-padding="40px 0"
 			color="--light"
 			font="--base"
-			background="#ffb74b"
+			background="#f9f8f6"
 		>
 			<Override slot="SectionContent" align-self="auto" />
 			<Stack padding="30px 0px 0px 0px" justify-content="center" align-items="center">
@@ -507,7 +507,7 @@ Expires October 25, 2021
 			</Stack>
 		</Section>
 		<Section
-			background="--color-red url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/conifer-searching.png?v=2021-07-10T12:20:30.067Z) center/cover repeat-x scroll"
+			background="#1808da url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/conifer-searching.png?v=2021-07-10T12:20:30.067Z) center/cover repeat-x scroll"
 			sm-padding="40px 0"
 			color="--light"
 			font="--base"
@@ -570,13 +570,51 @@ Expires October 25, 2021
 				Services and Pricings
 			</Text>
 			<Stack margin-top="40px" flex-wrap="wrap">
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
-						background="#ffdb59"
+						background="#fff359"
 						border-style="solid"
 						border-width="3px"
+						padding="10px 0px 0px 0px"
+					/>
+					<Text as="h3" font="normal 600 36px/1 --fontFamily-googleOpenSans" margin="5px 0 20px 0" text-align="center">
+						PAGES MINI
+					</Text>
+					<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Office.png?v=2021-07-20T11:18:52.606Z" padding="40px 0px 40px 0px" />
+					<Text color="#002ba5" margin="0" text-align="center">
+						All Business Landing pages Starter.
+					</Text>
+					<Text as="p" margin="20px 0 5px 0" text-align="center">
+						Static website,
+						<br />
+						Free SSL,
+						<br />
+						Unlimited Bandwidth
+						<br />
+						Single Landing page
+						<br />
+						CDN Bandwidth,
+						<br />
+						Best support,
+						<br />
+						Free Upgrade
+						<br />
+						99.9 % Uptime Guaranteed.
+						<br />
+					</Text>
+					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
+						₹50
+					</Text>
+				</StackItem>
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						flex-direction="column"
+						border-style="solid"
+						border-width="3px"
+						padding="10px 0px 0px 0px"
 					/>
 					<Text as="h3" font="normal 600 36px/1 --fontFamily-googleOpenSans" margin="5px 0 20px 0" text-align="center">
 						PAGES
@@ -593,34 +631,32 @@ Expires October 25, 2021
 						<br />
 						Unlimited Bandwidth
 						<br />
-						10gb storage,
+						landing Pages with two additional page,
 						<br />
 						CDN Bandwidth,
 						<br />
 						Best support,
 						<br />
-						Free Upgrade
-						<br />
 						99.9 % Uptime Guaranteed.
-						<br />
 						<br />
 					</Text>
 					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
 						₹99
 					</Text>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						background="#28eca5"
 						border-style="solid"
 						border-width="3px"
+						padding="10px 0px 0px 0px"
 					/>
 					<Text as="h3" font="normal 600 36px/1 --fontFamily-googleOpenSans" margin="5px 0 20px 0" text-align="center">
 						PAGES +
 					</Text>
-					<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Office-Chillout.png?v=2021-07-20T11:18:52.610Z" padding="20px 0px 20px 0px" />
+					<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Office-Chillout.png?v=2021-07-20T11:18:52.610Z" />
 					<Text color="#002ba5" margin="0" text-align="center">
 						Optimized for small and Medium Business, Blogs
 						<br />
@@ -638,22 +674,22 @@ Expires October 25, 2021
 						<br />
 						Best support,
 						<br />
-						Free Upgrade,
+						Free upgrade
 						<br />
 						99.9 % Uptime Guaranteed.
-						<br />
 					</Text>
 					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center" margin="30px 0px 16px 0px">
 						₹129
 					</Text>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						border-style="solid"
 						border-width="3px"
 						background="#7dfff1"
+						padding="10px 0px 0px 0px"
 					/>
 					<Text as="h3" font="normal 600 36px/1 --fontFamily-googleOpenSans" margin="5px 0 20px 0" text-align="center">
 						STORES
@@ -685,18 +721,19 @@ Expires October 25, 2021
 						₹199
 					</Text>
 				</StackItem>
-				<StackItem width="25%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						background="#ffb74b"
 						border-style="solid"
 						border-width="3px"
+						padding="10px 0px 0px 0px"
 					/>
 					<Text as="h3" font="normal 600 36px/1 --fontFamily-googleOpenSans" margin="5px 0 20px 0" text-align="center">
 						PAGES UX
 					</Text>
-					<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Work-Essentials.png?v=2021-07-20T11:18:52.620Z" padding="40px 0px 40px 0px" />
+					<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/conifer-1082.png?v=2021-07-12T17:29:05.839Z" object-fit="cover" />
 					<Text color="#002ba5" margin="0" text-align="center">
 						UX powered sites .Powerful business. Powerful Hosting.
 						<br />
@@ -802,13 +839,15 @@ Expires October 25, 2021
 				justify-content="center"
 				display="flex"
 			>
-				<StackItem width="50%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						background="#ffdb59"
 						border-style="solid"
 						border-width="3px"
+						border-radius="20px"
+						padding="0px 5px 0px 5px"
 					/>
 					<Text
 						as="h3"
@@ -821,7 +860,7 @@ Expires October 25, 2021
 					</Text>
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/web%20development.svg?v=2021-07-03T14:57:22.597Z) 50% 0/cover no-repeat" />
 					<Text color="#002ba5" margin="0" text-align="center">
-						Dynamic & Static Websites, Full support, Free upgrade to other plans.
+						Dynamic & Static Websites,
 						<br />
 						{"\n\n"}
 					</Text>
@@ -829,13 +868,15 @@ Expires October 25, 2021
 						₹100 /Hr
 					</Text>
 				</StackItem>
-				<StackItem width="50%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						background="#ffc3b6"
 						border-style="solid"
 						border-width="3px"
+						border-radius="20px"
+						padding="0px 5px 0px 5px"
 					/>
 					<Text
 						as="h3"
@@ -844,7 +885,7 @@ Expires October 25, 2021
 						text-align="center"
 						padding="20px 0px 0px 0px"
 					>
-						CUSTOM BUSINESS APPS
+						CUSTOM APPS
 					</Text>
 					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/build%20%20product.svg?v=2021-07-03T15:08:44.889Z) 50% 0/cover no-repeat" />
 					<Text color="#002ba5" margin="0" text-align="center">
@@ -856,13 +897,15 @@ Expires October 25, 2021
 						₹100 /Hr
 					</Text>
 				</StackItem>
-				<StackItem width="50%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						background="#ffb74b"
 						border-style="solid"
 						border-width="3px"
+						border-radius="20px"
+						padding="0px 5px 0px 5px"
 					/>
 					<Text
 						as="h3"
@@ -871,29 +914,25 @@ Expires October 25, 2021
 						text-align="center"
 						padding="20px 0px 0px 0px"
 					>
-						SOCIAL MEDIA MARKETING
+						SM MARKETING
 					</Text>
-					<Box
-						height="0"
-						padding-bottom="100%"
-						background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/016.png?v=2021-07-12T15:23:07.974Z) 50% 0/cover no-repeat"
-						padding="0px 0px 554PX 0px"
-						margin="0px 0px 20PX 0px"
-					/>
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Product-Launch.png?v=2021-07-20T11:18:52.616Z) 0/contain no-repeat" />
 					<Text color="#002ba5" margin="0" text-align="center">
-						Facebook, Instagram Marketing
+						Facebook, Instagram Marketing{"\n\n"}
 					</Text>
 					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
 						₹100 /Hr
 					</Text>
 				</StackItem>
-				<StackItem width="50%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						background="#dee3ff"
 						border-style="solid"
 						border-width="3px"
+						border-radius="20px"
+						padding="0px 5px 0px 5px"
 					/>
 					<Text
 						as="h3"
@@ -904,9 +943,11 @@ Expires October 25, 2021
 					>
 						EMAIL AND SMS MARKETING
 					</Text>
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/market%20research%20colored.svg?v=2021-07-03T15:25:45.686Z) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Work-Essentials.png?v=2021-07-20T11:18:52.620Z) 50%/contain no-repeat" />
 					<Text color="#002ba5" margin="0" text-align="center">
-						Costs at 0.25 INR per Sms & o.o35 per Email.
+						Costs at 0.25 INR per Sms{" "}
+						<br />
+						and o.o35 per Email.
 						<br />
 						{"\n\n"}
 					</Text>
@@ -914,13 +955,15 @@ Expires October 25, 2021
 						₹100 /Hr
 					</Text>
 				</StackItem>
-				<StackItem width="50%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						background="#7dcdfc"
 						border-style="solid"
 						border-width="3px"
+						border-radius="20px"
+						padding="0px 5px 0px 5px"
 					/>
 					<Text
 						as="h3"
@@ -931,23 +974,23 @@ Expires October 25, 2021
 					>
 						FACEBOOK CHATBOTS
 					</Text>
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/chatbot.svg?v=2021-07-03T15:31:24.442Z) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/chatbot.svg?v=2021-07-03T15:31:24.442Z) 50%/contain no-repeat" />
 					<Text color="#002ba5" margin="0" text-align="center">
 						Starts from ₹850 per month as per customer counts. Ecommerce Chat.
-						<br />
-						Automate, acquire and grow audience.{"\n\n"}
 					</Text>
 					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
 						₹100 /Hr
 					</Text>
 				</StackItem>
-				<StackItem width="50%" lg-width="50%" sm-width="100%">
+				<StackItem width="33.3%" lg-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						background="#28eca5"
 						border-style="solid"
 						border-width="3px"
+						border-radius="20px"
+						padding="0px 5px 0px 5px"
 					/>
 					<Text
 						as="h3"
@@ -958,11 +1001,11 @@ Expires October 25, 2021
 					>
 						WHATSAPP CHATBOT
 					</Text>
-					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/chatting%20using%20apps.svg?v=2021-07-03T15:57:52.920Z) 50% 0/cover no-repeat" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://uploads.quarkly.io/60d350285179a1001e683fe8/images/chatting%20using%20apps.svg?v=2021-07-03T15:57:52.920Z) 50%/cover no-repeat" />
 					<Text color="#002ba5" margin="0" text-align="center">
-						Official and Unofficial bots. Starts from ₹400 per month for 500 customers.
+						from ₹400 per month for 500 customers.
 						<br />
-						+2k for server cost. Ecommerce chat & best support.{"\n\n"}
+						+2k for server cost. Ecommerce chat &  support.{"\n\n"}
 					</Text>
 					<Text font="900 70px --fontFamily-googleOpenSans" text-align="center">
 						₹100 /Hr

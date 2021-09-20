@@ -52,21 +52,450 @@ export default (() => {
 		</Box>
 		<Components.TempHeading />
 		<Text font="normal 500 30px/1.2 --fontFamily-sans" text-align="left" padding="0px 0px 0px 30px">
-			Choose your page template
+			Choose your Landing page template
 		</Text>
 		<Text font="normal 500 30px/1.2 --fontFamily-sans" text-align="left" padding="0px 0px 0px 30px" color="#2c01f7">
 			Local Business & Professional service
 		</Text>
-		<Components.Template1 />
-		<Components.Temp2 />
+		<Stack
+			margin-top="40px"
+			flex-wrap="wrap"
+			align-items="center"
+			justify-content="center"
+			display="flex"
+			grid-auto-rows="2"
+			grid-auto-flow="2"
+			margin="0px 20px 0 20px"
+		>
+			<StackItem lg-width="50%" sm-width="100%" width="33.3%">
+				<Override
+					slot="StackItemContent"
+					flex-direction="column"
+					border-style="solid"
+					border-width="3px"
+					text-align="center"
+					background="#0505ff"
+				/>
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-8.png?v=2021-09-03T16:04:57.724Z" display="flex" width="500p" />
+				<Text
+					color="#ffdb59"
+					font="--headline3"
+					letter-spacing="inherit"
+					margin="5px 0px 0px 15px"
+					text-align="left"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						THEME 01
+					</Strong>
+				</Text>
+				<Link
+					href="https://competent-yonath-444c36.netlify.app/"
+					color="#fefeff"
+					font="--headline3"
+					text-align="left"
+					text-decoration-line="initial"
+					background="#0505ff"
+					padding="10px 0px 10px 15px"
+					target="_blank"
+				>
+					<Strong>
+						Health, Class
+						<br />
+					</Strong>
+					add your own components
+
+  ⟶{"\n\n"}
+				</Link>
+			</StackItem>
+			<StackItem lg-width="50%" sm-width="100%" width="33.3%">
+				<Override
+					slot="StackItemContent"
+					flex-direction="column"
+					border-style="solid"
+					border-width="3px"
+					text-align="center"
+					background="#0505ff"
+				/>
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-2.png?v=2021-09-03T16:00:21.211Z" display="flex" width="500p" />
+				<Text
+					color="#ffdb59"
+					font="--headline3"
+					letter-spacing="inherit"
+					margin="5px 0px 0px 15px"
+					text-align="left"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						THEME 02
+					</Strong>
+				</Text>
+				<Link
+					href="https://confident-goldwasser-d1ecc3.netlify.app/"
+					color="#fefeff"
+					font="--headline3"
+					text-align="left"
+					text-decoration-line="initial"
+					background="#0505ff"
+					padding="10px 0px 10px 15px"
+					target="_blank"
+				>
+					<Strong>
+						Sports, Gym
+					</Strong>
+					,{" "}
+					<br />
+					add your own components
+
+  ⟶{"\n\n"}
+				</Link>
+			</StackItem>
+			<StackItem lg-width="50%" sm-width="100%" width="33%">
+				<Override
+					slot="StackItemContent"
+					flex-direction="column"
+					border-style="solid"
+					border-width="3px"
+					text-align="center"
+					background="#0505ff"
+				/>
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-3.png?v=2021-09-03T16:03:32.378Z" display="flex" width="500p" />
+				<Text
+					color="#ffdb59"
+					font="--headline3"
+					letter-spacing="inherit"
+					margin="5px 0px 0px 15px"
+					text-align="left"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						THEME 03
+					</Strong>
+				</Text>
+				<Link
+					href="https://serene-nightingale-a98382.netlify.app/"
+					color="#fefeff"
+					font="--headline3"
+					text-align="left"
+					text-decoration-line="initial"
+					background="#0505ff"
+					padding="10px 0px 10px 15px"
+					target="_blank"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						Restaurants,Local Business
+					</Strong>
+					<br />
+					add your own components
+
+  ⟶{"\n\n"}
+				</Link>
+			</StackItem>
+		</Stack>
+		<Stack
+			margin-top="40px"
+			flex-wrap="wrap"
+			align-items="center"
+			justify-content="flex-start"
+			display="flex"
+			grid-auto-rows="2"
+			grid-auto-flow="2"
+			margin="0px 20px 0 20px"
+		>
+			<StackItem lg-width="50%" sm-width="100%" width="33%">
+				<Override
+					slot="StackItemContent"
+					flex-direction="column"
+					border-style="solid"
+					border-width="3px"
+					text-align="center"
+					background="#0505ff"
+				/>
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-6.png?v=2021-09-03T16:04:04.625Z" display="flex" width="500p" />
+				<Text
+					color="#ffdb59"
+					font="--headline3"
+					letter-spacing="inherit"
+					margin="5px 0px 0px 15px"
+					text-align="left"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						THEME 04
+					</Strong>
+				</Text>
+				<Link
+					href="https://amazing-carson-15e600.netlify.app/"
+					color="#fefeff"
+					font="--headline3"
+					text-align="left"
+					text-decoration-line="initial"
+					background="#0505ff"
+					padding="10px 0px 10px 15px"
+					target="_blank"
+				>
+					<Strong>
+						Interior, Construction
+					</Strong>
+					,{" "}
+					<br />
+					add your own components
+
+  ⟶{"\n\n"}
+				</Link>
+			</StackItem>
+		</Stack>
 		<Text font="normal 500 30px/1.2 --fontFamily-sans" text-align="left" padding="0px 0px 0px 30px" color="#2c01f7">
 			Portfolios
 		</Text>
-		<Components.Temp3 />
+		<Stack
+			margin-top="40px"
+			flex-wrap="wrap"
+			align-items="center"
+			justify-content="flex-start"
+			display="flex"
+			grid-auto-rows="2"
+			grid-auto-flow="2"
+			margin="0px 20px 0 20px"
+		>
+			<StackItem lg-width="50%" sm-width="100%" width="33%">
+				<Override
+					slot="StackItemContent"
+					flex-direction="column"
+					border-style="solid"
+					border-width="3px"
+					text-align="center"
+					background="#0505ff"
+				/>
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-7.png?v=2021-09-03T16:06:14.893Z" display="flex" width="500p" />
+				<Text
+					color="#ffdb59"
+					font="--headline3"
+					letter-spacing="inherit"
+					margin="5px 0px 0px 15px"
+					text-align="left"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						THEME 05
+					</Strong>
+				</Text>
+				<Link
+					href="https://clever-einstein-7104eb.netlify.app/"
+					color="#fefeff"
+					font="--headline3"
+					text-align="left"
+					text-decoration-line="initial"
+					background="#0505ff"
+					padding="10px 0px 10px 15px"
+					target="_blank"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						Resumes and Jobs
+					</Strong>
+					,{" "}
+					<br />
+					add your own components
+
+  ⟶{"\n\n"}
+				</Link>
+			</StackItem>
+			<StackItem lg-width="50%" sm-width="100%" width="33%">
+				<Override
+					slot="StackItemContent"
+					flex-direction="column"
+					border-style="solid"
+					border-width="3px"
+					text-align="center"
+					background="#0505ff"
+				/>
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-5.png?v=2021-09-03T16:06:51.320Z" display="flex" width="500p" />
+				<Text
+					color="#ffdb59"
+					font="--headline3"
+					letter-spacing="inherit"
+					margin="5px 0px 0px 15px"
+					text-align="left"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						THEME 06
+					</Strong>
+				</Text>
+				<Link
+					href="https://admiring-golick-f60b5f.netlify.app"
+					color="#fefeff"
+					font="--headline3"
+					text-align="left"
+					text-decoration-line="initial"
+					background="#0505ff"
+					padding="10px 0px 10px 15px"
+					target="_blank"
+				>
+					<Strong>
+						Portfolios
+					</Strong>
+					,{" "}
+					<br />
+					add your own components
+
+  ⟶{"\n\n"}
+				</Link>
+			</StackItem>
+		</Stack>
 		<Text font="normal 500 30px/1.2 --fontFamily-sans" text-align="left" padding="0px 0px 0px 30px" color="#2c01f7">
 			Community and Non Profit
 		</Text>
-		<Components.Temp4 />
+		<Stack
+			margin-top="40px"
+			flex-wrap="wrap"
+			align-items="center"
+			justify-content="flex-start"
+			display="flex"
+			grid-auto-rows="2"
+			grid-auto-flow="2"
+			margin="0px 20px 0 20px"
+		>
+			<StackItem lg-width="50%" sm-width="100%" width="33%">
+				<Override
+					slot="StackItemContent"
+					flex-direction="column"
+					border-style="solid"
+					border-width="3px"
+					text-align="center"
+					background="#0505ff"
+				/>
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/Untitled%20story%20%2815%29.png?v=2021-09-03T16:02:10.655Z" display="flex" width="500p" />
+				<Text
+					color="#ffdb59"
+					font="--headline3"
+					letter-spacing="inherit"
+					margin="5px 0px 0px 15px"
+					text-align="left"
+				>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						THEME 07
+					</Strong>
+				</Text>
+				<Link
+					href="https://condescending-rosalind-807f57.netlify.app/"
+					color="#fefeff"
+					font="--headline3"
+					text-align="left"
+					text-decoration-line="initial"
+					background="#0505ff"
+					padding="10px 0px 10px 15px"
+					target="_blank"
+				>
+					<Strong>
+						Community, Studio
+					</Strong>
+					,{" "}
+					<br />
+					add your own components
+
+  ⟶{"\n\n"}
+				</Link>
+			</StackItem>
+			<StackItem lg-width="50%" sm-width="100%" width="33%">
+				<Override
+					slot="StackItemContent"
+					flex-direction="column"
+					border-style="solid"
+					border-width="3px"
+					text-align="center"
+					background="#0505ff"
+				/>
+				<Image src="https://uploads.quarkly.io/60d350285179a1001e683fe8/images/scene-4.png?v=2021-09-03T16:09:27.441Z" display="flex" width="500p" />
+				<Text
+					color="#ffdb59"
+					font="--headline3"
+					letter-spacing="inherit"
+					margin="5px 0px 0px 15px"
+					text-align="left"
+				>
+					<Strong>
+						THEME 08
+					</Strong>
+				</Text>
+				<Link
+					href="https://pedantic-shaw-82d326.netlify.app/"
+					color="#fefeff"
+					font="--headline3"
+					text-align="left"
+					text-decoration-line="initial"
+					background="#0505ff"
+					padding="10px 0px 10px 15px"
+					target="_blank"
+				>
+					<Strong>
+						Non Profit
+					</Strong>
+					,{" "}
+					<br />
+					add your own components
+
+  ⟶{"\n\n"}
+				</Link>
+			</StackItem>
+		</Stack>
 		<Section
 			padding="64px 0"
 			sm-padding="40px 0"
